@@ -1,7 +1,7 @@
 ﻿syntax = "proto3";
 package iroha.protocol;
 
-option go_package = "iroha.generated/protocol";
+option csharp_namespace = "Iroha.Protocol";
 
 import "primitive.proto";
 import "google/protobuf/timestamp.proto";

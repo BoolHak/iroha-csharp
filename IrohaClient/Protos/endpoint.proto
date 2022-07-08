@@ -2,7 +2,7 @@
 
 package iroha.protocol;
 
-option go_package = "iroha.generated/protocol";
+option csharp_namespace = "Iroha.Protocol";
 
 import "transaction.proto";
 import "queries.proto";

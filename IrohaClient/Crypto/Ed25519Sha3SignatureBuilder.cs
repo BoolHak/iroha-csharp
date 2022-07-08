@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Iroha.Protocol;
+using IrohaClient.Detail;
+using Org.BouncyCastle.Crypto;
 
 namespace IrohaClient.Crypto
 {
-    public class Ed25519Sha3SignatureBuilder
+    public class Ed25519Sha3SignatureBuilder : ISignatureBuilder
     {
+        public string GetHexPublicKey(AsymmetricCipherKeyPair keyPair)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Signature Sign<T>(Hashable<T> toSign, AsymmetricCipherKeyPair keyPair)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
