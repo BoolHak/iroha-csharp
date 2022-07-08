@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IrohaClient.Crypto
 {
-    internal class Ed25519Sha2SignatureBuilder
+    public class Ed25519Sha2SignatureBuilder
     {
     }
 }
